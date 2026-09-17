@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Variables del cliente Supabase (publicar/anon). Se inyectan en el build.
+# Nunca coloques service_role aquí.
+# VITE_SUPABASE_URL=https://uclbdtybqmazyancnscj.supabase.co
+# VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIs...
